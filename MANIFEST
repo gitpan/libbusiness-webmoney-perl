@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Business-WebMoney.t
+lib/Business/WebMoney.pm
+lib/Business/WebMoney/WebMoneyCA.crt
+META.yml                                 Module meta-data (added by MakeMaker)

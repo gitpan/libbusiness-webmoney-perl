@@ -1,0 +1,33 @@
+Business-WebMoney version 0.01
+==============================
+
+Business::WebMoney provides simple API to the WebMoney transfer system. It
+requires the SSL private key and certificate from your WM Keeper Light
+account (PKCS12 file). WM Keeper Classic keys are not supported yet.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  LWP
+  Net::SSL
+  XML::LibXML
+  HTTP::Request
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 by Alexander Lourier
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.10.0 or,
+at your option, any later version of Perl 5 you may have available.
+
